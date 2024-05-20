@@ -1,0 +1,222 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.nav-c{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px;
+    z-index: 10;
+}
+
+.menu-container{
+    color: aliceblue;
+    display: flex;
+    gap: 40px;
+}
+.logo{
+    width: 60px;
+}
+li{
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+header{
+    background-image: url(image/Div\ [banner]\ -\ Copy.png);
+
+}
+li:hover{
+    color: rgb(15, 189, 252);
+    cursor: pointer;
+}
+.banner-container{
+    display: flex;
+    flex-wrap: wrap;
+    z-index: 1;
+    justify-content: space-around;
+    align-items: center;
+}
+.banner-left{
+    width: 400px;
+    line-height: 1.5;
+    text-align: center;
+}
+.banner-right{
+    margin-top: 0px;
+
+}
+.text{
+    color: aliceblue;
+    font-family: sans-serif;
+}
+.h4{
+    color: #f28407;
+    margin-bottom: 10px;
+
+}
+.btn{
+    z-index: 40;
+    padding: 15px 30px;
+    border: none;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    background-color: rgb(23, 152, 109);
+    border-radius: 12px;
+    margin-top: 20px;
+}
+.service-title{
+    margin-top: 30px;
+    font-size: 60px;
+    text-align: center;
+}
+.para{
+    margin-top: 30px;
+    font-size: 20px;
+    text-align: center;
+}
+.service-card{
+    width: 300px;
+    height: 320px;
+    margin-top: 20px;
+    box-shadow: 4px 4px 8px gray;
+    border-radius: 2px;
+    text-align: center;
+}
+.net{
+    margin-top: 20px;
+}
+.service-para{
+    margin-top: 30px;
+}
+.services{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin: 40px;
+}
+.service-logo-container{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
+.service-logo{
+    margin: 20px;
+    padding: 10px;
+}
+.service-img{
+    margin-top: 20px;
+}
+.contact{
+    margin: 30px;
+    padding: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 90px;
+}
+.contact-left{
+    width: 450px;
+}
+.contact-btn{
+    padding: 10px 15px;
+    border: none;
+    color: #000;
+    background-color: aqua;
+    border-radius: 8px;
+}
+.contact-h2{
+    width: 320px;
+    margin-top: 40px;
+    font-size: 30px;
+}
+.contact-para{
+    margin-top: 25px;
+    font-size: 25px;
+
+}
+.contact-img{
+    margin-top:20px ;
+    width: 60px;
+    height: 70px;
+}
+.right-img{
+    width: 500px;
+}
+.contact-h3{
+    font-size:35px;
+    padding: 20px;
+    margin-top: 20px;
+    display: inline;
+    
+}
+.number-h3{
+    font-size:35px;
+    padding: 10px;
+    margin-top: 10px;
+
+}
+.foot-card{
+    width: 200px;
+    height: 300px;
+    margin: 10px;
+    color: beige;
+    line-height: 20px;
+}
+.foot{
+    margin-top: -50px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px;
+    align-items: center;
+    gap: 20px;
+}
+footer{
+    width: 100%;
+    height: 100%;
+    background-color: #201d1d;
+}
+.list{
+    list-style: circle;
+    line-height: 40px;
+}
+.foot-img{
+    width: 40px;
+    display: inline;
+}
+.foot-h3{
+    display: inline;
+}
+.foot-para{
+    margin-top: 20px;
+}
+.foot-h{
+    margin-top: 15px;
+}
+.box{
+    margin-top: 15px;
+    width: 150px;
+    height: 20px;
+    background-color: aquamarine;
+    border: none;
+}
+.card-h3{
+    text-align: center;
+}
+.office{
+    line-height: 40px;
+}
+.img1{
+    display: flex;
+}
+.img-h{
+    display: flex;
+    justify-content: space-around;
+}
